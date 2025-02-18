@@ -1,0 +1,3 @@
+C:/Users/tibor/CLionProjects/NYE_adatszerkesalgo_24_25_2/cmake-build-debug/CMakeFiles/NYE_adatszerkesalgo_24_25_2.dir
+C:/Users/tibor/CLionProjects/NYE_adatszerkesalgo_24_25_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tibor/CLionProjects/NYE_adatszerkesalgo_24_25_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
