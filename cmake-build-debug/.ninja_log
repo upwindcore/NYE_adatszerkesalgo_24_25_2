@@ -1,6 +1,8 @@
 # ninja log v6
-14	237	7614959124967729	CMakeFiles/NYE_adatszerkesalgo_24_25_2.dir/main.c.obj	9d7b615f5905e19c
-239	516	7614959127226550	NYE_adatszerkesalgo_24_25_2.exe	8c6ee2f387b66e3b
-8	470	7615864320156893	build.ninja	49cc15f15591d077
-5	316	7615864321077355	CMakeFiles/NYE_adatszerkesalgo_24_25_2.dir/main.c.obj	9d7b615f5905e19c
-319	1015	7615864324209497	NYE_adatszerkesalgo_24_25_2.exe	8c6ee2f387b66e3b
+17	328	7620995517556003	CMakeFiles/NYE_adatszerkesalgo_24_25_2.dir/main.c.obj	9d7b615f5905e19c
+330	1151	7620995520674195	NYE_adatszerkesalgo_24_25_2.exe	8c6ee2f387b66e3b
+8	470	7627032557798873	build.ninja	49cc15f15591d077
+12	388	7627059911486429	CMakeFiles/NYE_adatszerkesalgo_24_25_2.dir/main.c.obj	9d7b615f5905e19c
+390	1323	7627059915266784	NYE_adatszerkesalgo_24_25_2.exe	8c6ee2f387b66e3b
+11	261	7627060435977688	CMakeFiles/NYE_adatszerkesalgo_24_25_2.dir/main.c.obj	9d7b615f5905e19c
+263	549	7627060438501602	NYE_adatszerkesalgo_24_25_2.exe	8c6ee2f387b66e3b
