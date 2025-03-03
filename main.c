@@ -1,39 +1,38 @@
-// A döntés
+// Döntés optimálisabban
 
 /*
-Algoritmus Dontes_1(N, X, van)
+Algoritmus Dontes_3(N, X, van)
+    i:=1
     van:=hamis
-    Ciklus i:= 1...N
-        van:= van vagy T(X[i])
+    Ciklus (nem T(X[i])) és i<=N
+            i:=i + 1
     Ciklus
+    van:= i<=N
 Algoritmus
  */
 
+
 #include <stdio.h>
 
-int T(int a)
+int T(char *s)
 {
-    int p=1;
-    for(int o=2; o<=a/2; o++)
-        if(a%o==0)p=0;
-        //p=p&&a%o;
-    return p;
+    return s[0]>='A' && s[0]<='Z';
 }
 
-void Dontes_1(int N, int *X, int *van)
+void Dontes_3(int N, char**X, int* van)
 {
+    int i=0;
     *van=0;
-    for (int i; i<N; i++)
-        *van= *van || T(X[i]);
+    while ((!T(X[i])) && i<N)
+        i++;
+    *van=i<N;
 }
-
 
 int main()
 {
-    int t[]={4, 6, 24, 45, 65};
-    int db=sizeof(t)/sizeof(t[0]);
+    char * x[]={"alma", "korte","asdf"};
     int letezik;
-    Dontes_1(db, t, &letezik);
+    Dontes_3(3, x, &letezik);
     printf(letezik?"Van":"Nincs");
 
     return 0;
